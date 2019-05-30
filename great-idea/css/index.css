@@ -135,10 +135,32 @@ button {
   
   .top-content {  
 	display: flex;
-  
-  }  
-  
-  
+	flex-flow: row wrap;
+  width: 100%;
+	}  
+	
+	.services-content {
+		border-bottom: 1px solid black;
+	}
+	
+	.middle-content {		
+		display: flex;		
+		width: 100%;
+		flex-flow: row wrap;
+		justify-content: space-evenly;	
+	}
+	
+	.card {
+		width: 45%;
+		justify-content: space-around;
+	
+		border: 1px solid black;	
+		height: 200px;		
+		align-items: space-evenly;
+		margin-top: 20px;	
+	}
+
+
   .top-content .left {   
 	margin-right: 10px; 
 
@@ -169,8 +191,25 @@ button {
   .contact {  
 	margin-top: 30px;
   
-  }
-  
+	}
+	
+	.services-content {
+		display: flex;		
+		border-top: 1px solid black;
+	}
+	
+	.facts {
+		margin-top: 20px;		
+		margin: 20px;
+		width: 100%;
+		
+	}
+	li {
+		list-style-type: square;
+		list-style-position: outside;
+		display: list-item;
+		margin-left: 35px;
+	}
   .footer {  
 	padding: 60px;
   
@@ -179,5 +218,10 @@ button {
   .footer p {  
 	text-align: center;
   
-  }
+	}
+	.copyright {
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+	}
   
